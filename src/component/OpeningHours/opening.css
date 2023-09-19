@@ -1,0 +1,17 @@
+.Title1 {
+
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+.headline{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: large;
+    font-weight: 400;
+    color: var(--black, #000);
+
+
+}

@@ -1,6 +1,9 @@
+import FoodDeliveryPimlico from '@/component/FoodDeliveryPimlico/FoodDeliveryPimlico';
 import Footer from '@/component/Footer'
-import Gallery from '@/component/Gallery'
+// import Gallery from '@/component/Gallery'
 import Header from '@/component/Header'
+import OpeningHours from '@/component/OpeningHours/OpeningHours';
+import Ourstory from '@/component/OurStory/Ourstory';
 import Sidebar from '@/component/Sidebar'
 import { useEffect, useState } from 'react';
 
@@ -12,8 +15,11 @@ export default function Home() {
     <main>
       <Header setIsCollpsed={setIsCollpsed} />
       <Sidebar isCollpsed={isCollpsed} setIsCollpsed={setIsCollpsed} />
-      <Gallery />
-      <div className='bg-[#FFF3E6] sm:bg-transparent'>
+      <Ourstory></Ourstory>
+      <OpeningHours></OpeningHours>
+      <FoodDeliveryPimlico></FoodDeliveryPimlico>
+
+      <div className='bg-[#FFF3E6] -mt-9 sm:bg-transparent'>
         <div className={`px-[105px] 2xl:px-[85px] xl:px-[70px] 2lg:px-[65px] lg:px-[50px] md:px-[40px] sm:px-[17px] py-[27px] sm:py-0 mt-[34px] lg:my-[16px] relative`}>
           <div className='flex justify-between items-center lg:flex-col sm:items-start py-[27px] sm:px-[15px] sm:pt-[30px] sm:pb-[56px] sm:bg-[#FFF3E6]'>
             <div className='max-w-[515px] xl:max-w-[400px] text-center sm:text-left'>

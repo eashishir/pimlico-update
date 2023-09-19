@@ -28,7 +28,7 @@ const Header = (props) => {
     return (
         <header className='h-[700px] 2lg:h-[600px] md:h-auto relative'>
             <div className='h-full absolute top-0 left-0 right-0 bottom-0 z-0 md:hidden'>
-                <img src='/image/header-bg.png' className='h-full w-full object-cover' />
+                <img  src='/image/header-about-bg.png' className='h-full w-full object-cover' />
             </div>
             <div className='z-[111] h-full relative bg-black bg-opacity-[0.4]'>
                 <div className={`px-[105px] 2xl:px-[85px] xl:px-[70px] 2lg:px-[65px] lg:px-[30px] md:px-[40px] sm:px-[17px]`}>
@@ -85,13 +85,13 @@ const Header = (props) => {
                                         <Link href={"#"} className="mx-[18px] relative nav-link text-white hover:text-[#D60000] lg:text-[14px] 2lg:mx-[12px]" >Menu</Link>
                                     </div>
                                     <div>
-                                        <Link href={"#"} className="mx-[18px] relative nav-link active-link text-white hover:text-[#D60000] lg:text-[14px] 2lg:mx-[12px]" >Gallery</Link>
+                                        <Link href={"#"} className="mx-[18px] relative nav-link  text-white hover:text-[#D60000] lg:text-[14px] 2lg:mx-[12px]" >Gallery</Link>
                                     </div>
                                     <div>
                                         <Link href={"#"} className="mx-[18px] relative nav-link text-white hover:text-[#D60000] lg:text-[14px] 2lg:mx-[12px]" >Reviews</Link>
                                     </div>
                                     <div>
-                                        <Link href={"#"} className="mx-[18px] relative nav-link text-white hover:text-[#D60000] lg:text-[14px] 2lg:mx-[12px]" >About</Link>
+                                        <Link href={"#"} className="mx-[18px] relative nav-link text-white active-link hover:text-[#D60000] lg:text-[14px] 2lg:mx-[12px]" >About</Link>
                                     </div>
                                     <div>
                                         <Link href={"#"} className="mx-[18px] relative nav-link text-white hover:text-[#D60000] lg:text-[14px] 2lg:mx-[12px]" >Contact</Link>
@@ -109,12 +109,12 @@ const Header = (props) => {
                     </div>
                 </div>
                 <div className='h-[calc(100%_-_157px)] 2lg:h-[calc(100%_-_200px)] grid place-items-center md:hidden'>
-                    <div className='text-white text-[96px] 2lg:text-[76px] sm:text-[40px] font-bebas'>Gallery</div>
+                    <div className='text-white text-[90px] 2lg:text-[76px] sm:text-[40px] font-bebas'>About us</div>
                 </div>
                 <div className='relative hidden md:block'>
-                    <img src='/image/header-bg.png' />
+                    <img src='/image/header-about-bg.png' />
                     <div className=' absolute font-bebas text-[40px] inset-0 grid place-items-center text-white sm:text-[40px]'>
-                        Gallery
+                        About us
                     </div>
                 </div>
             </div>
